@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		td, th, table {
+			text-align: left;
+			padding: 15px;
+		}
+		table {
+			box-shadow: 0px 0px 5px .5px rgb(0,0,0,.3);
+		}
+		.grid-container {
+		 	display: inline-flex;
+		 	grid-template-columns: auto auto auto;
+		 	padding: 10px;
+		}
+		.grid-item {
+		 	text-align: center;
+		}
+		.grid-item img{
+			padding: 20px;
+			width: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div style="text-align: center; justify-content: center; font-family: Arial, Helvetica, sans-serif; max-width: 700px; margin: 0 auto;">
+
+		<div>
+			<div style="background-color: rgb(11, 78, 84); color: white; padding: 25px; line-height: 30px;">
+				<img style="width: 250px; " src="https://i.ibb.co/g7JZVrm/logo-white-large.png" alt="">
+				<h1>Bienvenido a nuestra tienda virtual</h1>
+				<i> "Encuentra los mejores muebles en el mercado arequipeño"</i>
+			</div>
+
+			<div style="background-color: white; padding: 25px; color: black;" >
+				<h2 style="text-align: left;">Tus datos son los siguientes:</h2>
+				<table style="width: 100%; border-radius: 10px;">
+					<tr>
+						<th>Nombre Completo:</th>
+						<td>John Doe</td>
+					</tr>
+					<tr>
+						<th>Correo:</th>
+						<td>johndoe@gmail.com</td>
+					</tr>
+					<tr>
+						<th>Contraseña:</th>
+						<td style="line-height: 0px;">
+							johndoe123
+							<br>
+							<h6>*Tu contraseña está encriptada, solo podras verlo tu*</h6>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div style="background-color: rgb(11, 78, 84); color: white; padding: 25px;">
+				<p>Conecta con nosotros</p>
+				<div class="grid-container">
+					<div class="grid-item">
+						<a href="">
+							<img src="https://i.ibb.co/RPRpvRY/facebook.png">
+						</a>
+					</div>
+					<div class="grid-item">
+						<a href="https://www.instagram.com/portocarrero_store" target="_blank">
+							<img src="https://i.ibb.co/FDQL4L0/instagram.png">
+						</a>
+					</div>
+					<div class="grid-item">
+						<a href="https://wa.me/51974358785?text=Hola%20Portocarrero_Store%20" target="_blank">
+							<img src="https://i.ibb.co/mG4dnxT/whatsapp.png">	
+						</a>
+					</div>
+				</div>
+				<hr>
+				<footer style="padding: 25px;">
+					&copy; Portocarrero Store
+				</footer>
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
